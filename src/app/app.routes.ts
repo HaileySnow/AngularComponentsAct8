@@ -4,6 +4,7 @@ import { DisplayhelloworldComponent } from './displayhelloworld/displayhelloworl
 import { ShowhellobuttonComponent } from './showhellobutton/showhellobutton.component';
 import { DisplaynameComponent } from './displayname/displayname.component';
 import { CounterComponent } from './counter/counter.component';
+import { SimpleformComponent } from './simpleform/simpleform.component';
 
 
 
@@ -29,6 +30,11 @@ export const routes: Routes = [
     title: 'Component #4: Counter',
     component: CounterComponent,
     path: 'counter',
+},
+{
+    title: 'Component #5: Simple Form',
+    component: SimpleformComponent,
+    path: 'simple-form',
 
  
 }]
