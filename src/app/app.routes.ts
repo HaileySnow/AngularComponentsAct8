@@ -15,6 +15,7 @@ import { WordreverserComponent } from './wordreverser/wordreverser.component';
 import { ShowdateComponent } from './showdate/showdate.component';
 import { ShowusernameComponent } from './showusername/showusername.component';
 import { MultiplicationtableComponent } from './multiplicationtable/multiplicationtable.component';
+import { SimpleloginComponent } from './simplelogin/simplelogin.component';
 
 
 
@@ -95,6 +96,11 @@ export const routes: Routes = [
     title: 'Component #15: Multiplication Table',
     component: MultiplicationtableComponent,
     path: 'multiplication-table',
+},
+{
+    title: 'Component #16: Simple Login',
+    component: SimpleloginComponent,
+    path: 'simple-login',
 
  
 }]
