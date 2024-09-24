@@ -15,7 +15,7 @@ export class GuessnumbergameComponent {
 	makeAGuess(): void {
 		const guessNumber = Number(this.guess.nativeElement.value);
 		if (guessNumber === this.numberToBeGuess) {
-			this.result = `The guess: ${guessNumber} is correct!`;
+			this.result = `The guess: ${guessNumber} is correct siya beh!`;
 		}
 	}
 
