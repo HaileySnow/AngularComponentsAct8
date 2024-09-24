@@ -29,6 +29,7 @@ import { WordcounterComponent } from './wordcounter/wordcounter.component';
 import { RandomnumbergeneratorComponent } from './randomnumbergenerator/randomnumbergenerator.component';
 import { MultiplicationcheckerComponent } from './multiplicationchecker/multiplicationchecker.component';
 import { UppercaseconverterComponent } from './uppercaseconverter/uppercaseconverter.component';
+import { WordshufflerComponent } from './wordshuffler/wordshuffler.component';
 
 
 
@@ -179,6 +180,11 @@ export const routes: Routes = [
     title: 'Component #29: Upper Case Converter',
     component: UppercaseconverterComponent,
     path: 'uppercase-converter',
+},
+{
+    title: 'Component #30: Word Shuffler',
+    component: WordshufflerComponent,
+    path: 'shuffler',
  
 }]
 @NgModule({
