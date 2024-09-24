@@ -17,6 +17,7 @@ import { ShowusernameComponent } from './showusername/showusername.component';
 import { MultiplicationtableComponent } from './multiplicationtable/multiplicationtable.component';
 import { SimpleloginComponent } from './simplelogin/simplelogin.component';
 import { FahrenheittocelsiusComponent } from './fahrenheittocelsius/fahrenheittocelsius.component';
+import { BookmarklistComponent } from './bookmarklist/bookmarklist.component';
 
 
 
@@ -107,6 +108,11 @@ export const routes: Routes = [
     title: 'Component #17: Fahrenheit to Celcius',
     component: FahrenheittocelsiusComponent,
     path: 'degrees',
+},
+{
+    title: 'Component #18: Bookmarks List',
+    component: BookmarklistComponent,
+    path: 'bookmark-list',
 
  
 }]
