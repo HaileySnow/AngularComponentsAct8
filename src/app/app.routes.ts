@@ -30,6 +30,7 @@ import { RandomnumbergeneratorComponent } from './randomnumbergenerator/randomnu
 import { MultiplicationcheckerComponent } from './multiplicationchecker/multiplicationchecker.component';
 import { UppercaseconverterComponent } from './uppercaseconverter/uppercaseconverter.component';
 import { WordshufflerComponent } from './wordshuffler/wordshuffler.component';
+import { BmisolverComponent } from './bmisolver/bmisolver.component';
 
 
 
@@ -185,6 +186,11 @@ export const routes: Routes = [
     title: 'Component #30: Word Shuffler',
     component: WordshufflerComponent,
     path: 'shuffler',
+},
+{
+    title: 'Component #31: BMI Solver',
+    component: BmisolverComponent,
+    path: 'bmi',
  
 }]
 @NgModule({
