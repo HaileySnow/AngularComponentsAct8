@@ -27,6 +27,7 @@ import { TodomanagerComponent } from './todomanager/todomanager.component';
 import { GuessnumbergameComponent } from './guessnumbergame/guessnumbergame.component';
 import { WordcounterComponent } from './wordcounter/wordcounter.component';
 import { RandomnumbergeneratorComponent } from './randomnumbergenerator/randomnumbergenerator.component';
+import { MultiplicationcheckerComponent } from './multiplicationchecker/multiplicationchecker.component';
 
 
 
@@ -167,6 +168,11 @@ export const routes: Routes = [
     title: 'Component #27: Random Number Generator',
     component: RandomnumbergeneratorComponent,
     path: 'random-num',
+},
+{
+    title: 'Component #28: Multiplication Checker',
+    component: MultiplicationcheckerComponent,
+    path: 'multiplication-check',
  
 }]
 @NgModule({
