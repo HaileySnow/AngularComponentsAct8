@@ -19,6 +19,7 @@ import { SimpleloginComponent } from './simplelogin/simplelogin.component';
 import { FahrenheittocelsiusComponent } from './fahrenheittocelsius/fahrenheittocelsius.component';
 import { BookmarklistComponent } from './bookmarklist/bookmarklist.component';
 import { CharactercounterComponent } from './charactercounter/charactercounter.component';
+import { PalindromecheckerComponent } from './palindromechecker/palindromechecker.component';
 
 
 
@@ -119,6 +120,11 @@ export const routes: Routes = [
     title: 'Component #19: Character Counter',
     component: CharactercounterComponent,
     path: 'character-counter',
+},
+{
+    title: 'Component #20: Palindrome',
+    component: PalindromecheckerComponent,
+    path: 'palindrome',
 
  
 }]
