@@ -14,6 +14,7 @@ import { EvenoddcheckerComponent } from './evenoddchecker/evenoddchecker.compone
 import { WordreverserComponent } from './wordreverser/wordreverser.component';
 import { ShowdateComponent } from './showdate/showdate.component';
 import { ShowusernameComponent } from './showusername/showusername.component';
+import { MultiplicationtableComponent } from './multiplicationtable/multiplicationtable.component';
 
 
 
@@ -89,6 +90,11 @@ export const routes: Routes = [
     title: 'Component #14: Show Username',
     component: ShowusernameComponent,
     path: 'show-username',
+},
+{
+    title: 'Component #15: Multiplication Table',
+    component: MultiplicationtableComponent,
+    path: 'multiplication-table',
 
  
 }]
