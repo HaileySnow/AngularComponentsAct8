@@ -23,6 +23,7 @@ import { PalindromecheckerComponent } from './palindromechecker/palindromechecke
 import { TemperatureconverterComponent } from './temperatureconverter/temperatureconverter.component';
 import { ShoppinglistComponent } from './shoppinglist/shoppinglist.component';
 import { FactorialcalculatorComponent } from './factorialcalculator/factorialcalculator.component';
+import { TodomanagerComponent } from './todomanager/todomanager.component';
 
 
 
@@ -143,6 +144,11 @@ export const routes: Routes = [
     title: 'Component #23: Factorial',
     component: FactorialcalculatorComponent,
     path: 'factorial',
+},
+{
+    title: 'Component #24: Todo Manager',
+    component: TodomanagerComponent,
+    path: 'todo',
 
  
 }]
