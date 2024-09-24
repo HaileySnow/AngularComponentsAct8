@@ -39,6 +39,7 @@ import { OddsumcalculatorComponent } from './oddsumcalculator/oddsumcalculator.c
 import { CurrencyformatterComponent } from './currencyformatter/currencyformatter.component';
 import { RandomquotedisplayComponent } from './randomquotedisplay/randomquotedisplay.component';
 import { UppercasegreetingComponent } from './uppercasegreeting/uppercasegreeting.component';
+import { DivisiblecheckerComponent } from './divisiblechecker/divisiblechecker.component';
 
 
 
@@ -239,6 +240,11 @@ export const routes: Routes = [
     title: 'Component #39: Upper Case Name',
     component: UppercasegreetingComponent,
     path: 'uppercase-name',
+},
+{
+    title: 'Component #40: Divisible By',
+    component: DivisiblecheckerComponent,
+    path: 'divisible-by',
 
  
 }]
