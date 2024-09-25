@@ -46,6 +46,7 @@ import { LettertonumbersComponent } from './lettertonumbers/lettertonumbers.comp
 import { WordCombineConverterComponent } from './wordcombineconverter/wordcombineconverter.component';
 import { WordspacerComponent } from './wordspacer/wordspacer.component';
 import { SendmessageComponent } from './sendmessage/sendmessage.component';
+import { CheckmyzodiacComponent } from './checkmyzodiac/checkmyzodiac.component';
 
 
 
@@ -281,6 +282,11 @@ export const routes: Routes = [
     title: 'Component #46: Send Message',
     component: SendmessageComponent ,
     path: 'send-message',
+},
+{
+    title: 'Component #47: Check my Zodiac',
+    component: CheckmyzodiacComponent ,
+    path: 'check-my-zodiac',
 }]
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],

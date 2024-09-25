@@ -1,0 +1,15 @@
+<div></div>
+
+    <label for="birthday">Enter your birthday:</label>
+
+    <input id="birthday" type="date" (input)="onBirthdayInput($event)" />
+
+    <button (click)="getZodiacSign()">Check Zodiac Sign</button>
+
+    <div *ngIf="zodiacSign">
+
+      <p>Your Zodiac sign is: {{ zodiacSign }}</p>
+
+    </div>
+
+  <div>
