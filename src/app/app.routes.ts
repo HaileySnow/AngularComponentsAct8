@@ -41,6 +41,7 @@ import { RandomquotedisplayComponent } from './randomquotedisplay/randomquotedis
 import { UppercasegreetingComponent } from './uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './divisiblechecker/divisiblechecker.component';
 import { MonthnamefinderComponent } from './monthnamefinder/monthnamefinder.component';
+import { NameinitialsComponent } from './nameinitials/nameinitials.component';
 
 
 
@@ -251,8 +252,11 @@ export const routes: Routes = [
     title: 'Component #47: Month Names',
     component: MonthnamefinderComponent,
     path: 'month-name',
-
- 
+},
+{
+    title: 'Component #46: Name Initials',
+    component: NameinitialsComponent,
+    path: 'get-initials', 
 }]
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],
