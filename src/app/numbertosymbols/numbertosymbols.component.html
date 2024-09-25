@@ -1,0 +1,9 @@
+<div>
+    <label for="number">Enter a number (0-9): </label>
+    <input type="number" #numberInput min="0" max="9">
+  
+    <button (click)="getSymbol(numberInput.value)">Submit</button>
+  
+    <p *ngIf="symbol">The symbol is: {{ symbol }}</p>
+  </div>
+  

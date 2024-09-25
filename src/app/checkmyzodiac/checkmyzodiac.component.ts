@@ -30,7 +30,7 @@ export class CheckmyzodiacComponent {
 
     const date = new Date(this.birthday);
 
-    const month = date.getUTCMonth() + 1; // months are zero-indexed
+    const month = date.getUTCMonth() + 1; 
 
     const day = date.getUTCDate();
 

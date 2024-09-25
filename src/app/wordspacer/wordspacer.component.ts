@@ -10,10 +10,10 @@ import { Component } from '@angular/core';
 })
 export class WordspacerComponent {
 
-  spacedWord: string = ''; // Holds the result
+  spacedWord: string = ''; 
 
   convert(inputWord: string) {
-    this.spacedWord = inputWord.split('').join(' '); // Splits and adds space between each letter
+    this.spacedWord = inputWord.split('').join(' '); 
   }
 
 }

@@ -49,6 +49,7 @@ import { SendmessageComponent } from './sendmessage/sendmessage.component';
 import { CheckmyzodiacComponent } from './checkmyzodiac/checkmyzodiac.component';
 import { AnagramsComponent } from './anagrams/anagrams.component';
 import { ChinesezodiacComponent } from './chinesezodiac/chinesezodiac.component';
+import { NumbertosymbolsComponent } from './numbertosymbols/numbertosymbols.component';
 
 
 
@@ -299,6 +300,11 @@ export const routes: Routes = [
     title: 'Component #49: Chinese Zodiac Animals',
     component: ChinesezodiacComponent,
     path: 'chinese-zodiac',
+},
+{
+    title: 'Component #50: Number to Symbol',
+    component:  NumbertosymbolsComponent ,
+    path: 'keyboard-symbols',
 }]
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],

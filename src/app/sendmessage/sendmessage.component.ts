@@ -9,11 +9,11 @@ import { Component } from '@angular/core';
   styleUrl: './sendmessage.component.css'
 })
 export class SendmessageComponent {
-  message: string = ''; // Holds the input message
-  messageSent: boolean = false; // Tracks if the message was sent
+  message: string = ''; 
+  messageSent: boolean = false; 
 
   sendMessage() {
-    this.messageSent = true; // Sets messageSent to true after sending
+    this.messageSent = true; 
   }
 
 }

@@ -8,9 +8,8 @@ import { Component } from '@angular/core';
   templateUrl: './wordcombineconverter.component.html',
 })
 export class WordCombineConverterComponent {
-  combinedWord: string = ''; // Stores the combined word
-
+  combinedWord: string = ''; 
   combine(inputWord: string) {
-    this.combinedWord = 'very ' + inputWord; // Combines 'very' with the input
+    this.combinedWord = 'very ' + inputWord; 
   }
 }
