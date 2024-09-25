@@ -45,6 +45,7 @@ import { NameinitialsComponent } from './nameinitials/nameinitials.component';
 import { LettertonumbersComponent } from './lettertonumbers/lettertonumbers.component';
 import { WordCombineConverterComponent } from './wordcombineconverter/wordcombineconverter.component';
 import { WordspacerComponent } from './wordspacer/wordspacer.component';
+import { SendmessageComponent } from './sendmessage/sendmessage.component';
 
 
 
@@ -275,6 +276,11 @@ export const routes: Routes = [
     title: 'Component #45: Word Spacer',
     component: WordspacerComponent,
     path: 'word-spacer',
+},
+{
+    title: 'Component #46: Send Message',
+    component: SendmessageComponent ,
+    path: 'send-message',
 }]
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],
