@@ -1,0 +1,9 @@
+<div>
+    <h3>Word Spacer</h3>
+  
+    <input #inputWord type="text" placeholder="Enter a word">
+    <button (click)="convert(inputWord.value)">Convert</button>
+  
+    <p *ngIf="spacedWord">Result: {{ spacedWord }}</p>
+  </div>
+  

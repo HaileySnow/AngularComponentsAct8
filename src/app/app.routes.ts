@@ -44,6 +44,7 @@ import { MonthnamefinderComponent } from './monthnamefinder/monthnamefinder.comp
 import { NameinitialsComponent } from './nameinitials/nameinitials.component';
 import { LettertonumbersComponent } from './lettertonumbers/lettertonumbers.component';
 import { WordCombineConverterComponent } from './wordcombineconverter/wordcombineconverter.component';
+import { WordspacerComponent } from './wordspacer/wordspacer.component';
 
 
 
@@ -269,6 +270,11 @@ export const routes: Routes = [
     title: 'Component #44: Word Combine Converter',
     component: WordCombineConverterComponent,
     path: 'word-combine-converter',
+},
+{
+    title: 'Component #45: Word Spacer',
+    component: WordspacerComponent,
+    path: 'word-spacer',
 }]
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],
