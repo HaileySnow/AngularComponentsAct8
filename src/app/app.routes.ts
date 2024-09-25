@@ -42,6 +42,7 @@ import { UppercasegreetingComponent } from './uppercasegreeting/uppercasegreetin
 import { DivisiblecheckerComponent } from './divisiblechecker/divisiblechecker.component';
 import { MonthnamefinderComponent } from './monthnamefinder/monthnamefinder.component';
 import { NameinitialsComponent } from './nameinitials/nameinitials.component';
+import { LettertonumbersComponent } from './lettertonumbers/lettertonumbers.component';
 
 
 
@@ -249,14 +250,19 @@ export const routes: Routes = [
     path: 'divisible-by',
 },
 {
-    title: 'Component #47: Month Names',
+    title: 'Component #41: Month Names',
     component: MonthnamefinderComponent,
     path: 'month-name',
 },
 {
-    title: 'Component #46: Name Initials',
+    title: 'Component #42: Name Initials',
     component: NameinitialsComponent,
     path: 'get-initials', 
+},
+{
+    title: 'Component #43: Letter to Numbers',
+    component: LettertonumbersComponent,
+    path: 'letter-to-number',
 }]
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],
