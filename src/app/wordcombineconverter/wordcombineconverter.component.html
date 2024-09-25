@@ -1,0 +1,9 @@
+<div>
+    <h3>Word Combine Converter</h3>
+  
+    <input #inputWord type="text" placeholder="Enter a word">
+    <button (click)="combine(inputWord.value)">Convert</button>
+  
+    <p *ngIf="combinedWord">Result: {{ combinedWord }}</p>
+  </div>
+  

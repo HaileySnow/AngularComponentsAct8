@@ -43,6 +43,7 @@ import { DivisiblecheckerComponent } from './divisiblechecker/divisiblechecker.c
 import { MonthnamefinderComponent } from './monthnamefinder/monthnamefinder.component';
 import { NameinitialsComponent } from './nameinitials/nameinitials.component';
 import { LettertonumbersComponent } from './lettertonumbers/lettertonumbers.component';
+import { WordCombineConverterComponent } from './wordcombineconverter/wordcombineconverter.component';
 
 
 
@@ -263,6 +264,11 @@ export const routes: Routes = [
     title: 'Component #43: Letter to Numbers',
     component: LettertonumbersComponent,
     path: 'letter-to-number',
+},
+{
+    title: 'Component #44: Word Combine Converter',
+    component: WordCombineConverterComponent,
+    path: 'word-combine-converter',
 }]
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],
