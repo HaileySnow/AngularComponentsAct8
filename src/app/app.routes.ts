@@ -47,6 +47,7 @@ import { WordCombineConverterComponent } from './wordcombineconverter/wordcombin
 import { WordspacerComponent } from './wordspacer/wordspacer.component';
 import { SendmessageComponent } from './sendmessage/sendmessage.component';
 import { CheckmyzodiacComponent } from './checkmyzodiac/checkmyzodiac.component';
+import { AnagramsComponent } from './anagrams/anagrams.component';
 
 
 
@@ -280,13 +281,18 @@ export const routes: Routes = [
 },
 {
     title: 'Component #46: Send Message',
-    component: SendmessageComponent ,
+    component: SendmessageComponent,
     path: 'send-message',
 },
 {
     title: 'Component #47: Check my Zodiac',
-    component: CheckmyzodiacComponent ,
+    component: CheckmyzodiacComponent,
     path: 'check-my-zodiac',
+},
+{
+    title: 'Component #48: Anagrams',
+    component: AnagramsComponent,
+    path: 'anagrams',
 }]
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],
