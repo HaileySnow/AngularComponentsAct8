@@ -40,6 +40,7 @@ import { CurrencyformatterComponent } from './currencyformatter/currencyformatte
 import { RandomquotedisplayComponent } from './randomquotedisplay/randomquotedisplay.component';
 import { UppercasegreetingComponent } from './uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './divisiblechecker/divisiblechecker.component';
+import { MonthnamefinderComponent } from './monthnamefinder/monthnamefinder.component';
 
 
 
@@ -245,6 +246,11 @@ export const routes: Routes = [
     title: 'Component #40: Divisible By',
     component: DivisiblecheckerComponent,
     path: 'divisible-by',
+},
+{
+    title: 'Component #47: Month Names',
+    component: MonthnamefinderComponent,
+    path: 'month-name',
 
  
 }]
