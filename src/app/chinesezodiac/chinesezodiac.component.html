@@ -1,0 +1,9 @@
+<div>
+    <label for="year">Enter your birth year (2000-2024): </label>
+    <input type="number" #birthYearInput min="2000" max="2024">
+  
+    <button (click)="getZodiacSign(birthYearInput.value)">Submit</button>
+  
+    <p *ngIf="zodiacSign">Your Chinese Zodiac sign is: {{ zodiacSign }}</p>
+  </div>
+  

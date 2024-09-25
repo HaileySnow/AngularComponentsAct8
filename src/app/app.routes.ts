@@ -48,6 +48,7 @@ import { WordspacerComponent } from './wordspacer/wordspacer.component';
 import { SendmessageComponent } from './sendmessage/sendmessage.component';
 import { CheckmyzodiacComponent } from './checkmyzodiac/checkmyzodiac.component';
 import { AnagramsComponent } from './anagrams/anagrams.component';
+import { ChinesezodiacComponent } from './chinesezodiac/chinesezodiac.component';
 
 
 
@@ -293,6 +294,11 @@ export const routes: Routes = [
     title: 'Component #48: Anagrams',
     component: AnagramsComponent,
     path: 'anagrams',
+},
+{
+    title: 'Component #49: Chinese Zodiac Animals',
+    component: ChinesezodiacComponent,
+    path: 'chinese-zodiac',
 }]
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],
